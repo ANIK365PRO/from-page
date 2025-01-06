@@ -5,21 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jamal ar ma ar pitha</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main>
     <section>
       <h1>Please fill up the from</h1>
-      <form action="" style="display: block">
+      <form action="">
         <label for="name">Your Name:
           <input type="text" name="" id="name" placeholder="full name">
         </label>
         <label for="email">Your Email:
           <input type="email" name="" id="email" placeholder="email">
         </label>
-        <label for="password">Password:
-          <input type="password" name="" id="password" placeholder="password">
+        <label for="phone">Your Phone:
+          <input type="number" name="" id="phone" placeholder="phone" lang="bn">
+        </label>
+        <fieldset>
+          <legend>Pick one Pitha</legend>
+          <label for="Chitoy">
+            <input type="radio" name="pitha" id="Chitoy">Chitoy
+          </label>
+          <label for="Vapa">
+            <input type="radio" name="pitha" id="Vapa">Vapa
+          </label>
+          <label for="Puli">
+            <input type="radio" name="pitha" id="Puli">Puli
+          </label>
+        </fieldset>
+
       </form>
     </section>
   </main>
